@@ -1,10 +1,10 @@
-#🕵️‍♂️ DeepFake Detection Web App
+🕵️‍♂️ DeepFake Detection Web App
 
-#📌 Project Overview
+📌 Project Overview
 
 This project is a DeepFake Detection Web Application built using Flask (Backend), React.js (Frontend), and a PyTorch-based deep learning model. The application allows users to upload a video, which is then analyzed to determine whether it is REAL or FAKE using deep learning techniques. The model is trained to detect manipulated facial features in videos.
 
-#🏗️ Project Structure
+🏗️ Project Structure
 
 DeepFake-Detection
 │── model/
@@ -25,43 +25,39 @@ DeepFake-Detection
 │── README.md  # Documentation (this file)
 
 
-#🛠️ Tech Stack
+🛠️ Tech Stack
 
-#1.Backend (Flask) 🐍
-Flask,
-PyTorch,
-OpenCV,
-NumPy.
+1.Backend (Flask) 🐍
+Flask
+PyTorch
+OpenCV
+NumPy
 
-#2.Face Recognition (dlib-based)
+2.Face Recognition (dlib-based)
 
-#3.Frontend (React.js) ⚛️
-HTML,
-CSS,
-JavaScript.
+3.Frontend (React.js) ⚛️
+HTML
+CSS
+JavaScript
 
-#4.Deep Learning Model 🤖
-ResNeXt-50: Used as a feature extractor,
-LSTM: Processes video frame sequences,
-Softmax Classifier: Predicts REAL or FAKE.
+4.Deep Learning Model 🤖
+ResNeXt-50: Used as a feature extractor
+LSTM: Processes video frame sequences
+Softmax Classifier: Predicts REAL or FAKE
 
-#📸 How It Works
+📸 How It Works
 
 1️⃣ Upload a video file
-
 2️⃣ The model processes the video and detects manipulated faces
-
 3️⃣ The system returns either FAKE or REAL with a confidence score
-
 4️⃣ The video file is deleted after processing for security
 
-#🧑‍💻 Contributors
+🧑‍💻 Contributors
 
 GEDELA ROHIT CHANDRA - https://github.com/rohitxolo
-
 RAVANAM HARSHA VARDHAN
 
-#🌟 Future Improvements
+🌟 Future Improvements
 
 🚀 Improve model accuracy with more datasets
 📈 Optimize frontend UI/UX for better user experience
